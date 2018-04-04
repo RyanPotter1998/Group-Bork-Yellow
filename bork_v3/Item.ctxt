@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=s
+comment1.target=Item(java.util.Scanner)
+comment1.text=\r\n\ constructor\ for\ the\ Item\ Class\r\n\ @param\ s\ Scanner\ used\ in\ reading\ file\ to\ construct\ items\r\n\ @throws\ NoItemException\ if\ no\ item\ found\ in\ file\r\n\ @throws\ Dungeon.IllegalDungeonFormatException\ if\ file\ being\ read\ was\ constructed\ incorrectly\r\n
+comment2.params=name
+comment2.target=boolean\ goesBy(java.lang.String)
+comment2.text=\r\n\ Returns\ a\ true\ or\ a\ false\ for\ if\ this\ Item\ is\ also\ called\ by\ something\ else\r\n\ @param\ name\ String\ of\ the\ items\ possible\ other\ name\r\n\ @return\ boolean\ for\ if\ it\ called\ by\ that\ name\ or\ not\r\n
+comment3.params=
+comment3.target=java.lang.String\ getPrimaryName()
+comment3.text=\r\n\ primary\ name\ by\ which\ the\ Item\ goes\ by\ in\ the\ File\r\n\ @return\ primaryName\ the\ name\ of\ the\ Item\r\n
+comment4.params=verb
+comment4.target=java.lang.String\ getMessageForVerb(java.lang.String)
+comment4.text=\r\n\ gets\ the\ message\ of\ pertaining\ to\ action\ being\ used\ on\ Item\r\n\ @param\ verb\ String\ of\ action\ being\ done\ to\ Item\r\n\ @return\ String\ message\ of\ what\ happens\ to\ Item\ when\ Verb\ is\ done\ to\ it\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ no\ idea\ what\ this\ does,\ as\ we\ already\ have\ a\ "getPrimaryName"\ method\r\n\ the\ only\ difference\ is\ that\ it\ is\ public,\ so\ it\ can\ probably\ be\ used\ by\ lots\ of\ classes\ without\ interfering\ with\ the\ Item\r\n\ itself.\ or\ maybe\ it\ just\ makes\ the\ Item\ turn\ into\ a\ String\ for\ storage\ purposes\ in\ an\ array\ \u00AF\\_(\u30C4)_/\u00AF\ \r\n\ @return\ primaryName\ the\ Primary\ name\ of\ the\ Iten\r\n
+numComments=6

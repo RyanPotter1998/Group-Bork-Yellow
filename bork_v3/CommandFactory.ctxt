@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CommandFactory
+comment1.params=
+comment1.target=CommandFactory\ instance()
+comment2.params=
+comment2.target=CommandFactory()
+comment3.params=command
+comment3.target=Command\ parse(java.lang.String)
+numComments=4

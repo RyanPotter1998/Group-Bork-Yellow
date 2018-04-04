@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UnknownCommand
+comment1.params=bogusCommand
+comment1.target=UnknownCommand(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ execute()
+numComments=3

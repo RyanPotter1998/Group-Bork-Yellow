@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Exit
+comment1.params=dir\ src\ dest
+comment1.target=Exit(java.lang.String,\ Room,\ Room)
+comment1.text=\r\n\ constructor\ for\ the\ Exit\ class\r\n\ @param\ dir\ String\ for\ the\ direction\ that\ the\ Exit\ will\ be\ in\ the\ Room\ in\ relation\ to\ the\ player\r\n\ @param\ src\ Room\ being\ left\ through\ the\ exit.\ Exit\ is\ added\ to\ this\ Room's\ exit\ ArrayList\r\n\ @param\ dest\ Room\ being\ entered\ through\ the\ exit\r\n\ @see\ Room.addExit()\r\n\ \r\n
+comment2.params=s\ d
+comment2.target=Exit(java.util.Scanner,\ Dungeon)
+comment2.text=\ Given\ a\ Scanner\ object\ positioned\ at\ the\ beginning\ of\ an\ "exit"\ file\r\n\ \ \ \ \ \ \ \ entry,\ read\ and\ return\ an\ Exit\ object\ representing\ it.\ \r\n\ \ \ \ \ \ \ \ @param\ d\ The\ dungeon\ that\ contains\ this\ exit\ (so\ that\ Room\ objects\ \r\n\ \ \ \ \ \ \ \ may\ be\ obtained.)\r\n\ \ \ \ \ \ \ \ @throws\ NoExitException\ The\ reader\ object\ is\ not\ positioned\ at\ the\r\n\ \ \ \ \ \ \ \ start\ of\ an\ exit\ entry.\ A\ side\ effect\ of\ this\ is\ the\ reader's\ cursor\r\n\ \ \ \ \ \ \ \ is\ now\ positioned\ one\ line\ past\ where\ it\ was.\r\n\ \ \ \ \ \ \ \ @throws\ IllegalDungeonFormatException\ A\ structural\ problem\ with\ the\r\n\ \ \ \ \ \ \ \ dungeon\ file\ itself,\ detected\ when\ trying\ to\ read\ this\ room.\r\n
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\r\n\ Common\ object\ initialization\ tasks.\r\n\ does\ absolutely\ nothing,\ it\ is\ THE\ most\ worthless\ piece\ in\ this\ entire\ program\r\n\ it\ takes\ up\ space\ on\ my\ screen\ and\ in\ my\ computer\r\n\ it\ probably\ cries\ itself\ to\ sleep\ at\ night\ because\ its\ so\ worthless\r\n\ it\ wants\ to\ tell\ itself\ its\ special,\ but\ it\ knows\ it\ really\ isnt,\ as\ nobody\ calls\ him\ in\ the\ entirety\ of\ this\ code\r\n\ stupid\ init\r\n\ @param\ nothing\ because\ nobody\ calls\ it\r\n\ @returns\ nothing\ because\ he\ is\ useless\r\n\ @see\ other\ useless\ things,\ such\ as\:\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ describe()
+comment4.text=\r\n\ returns\ a\ string\ that\ tells\ you\ direction\ this\ Exit\ is\ heading\r\n\ @return\ String\ "You\ can\ go\ "\ +\ dir\ +\ "\ to\ "\ +\ dest.getTitle()\ +\ "."\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDir()
+comment5.text=\r\n\ gets\ the\ direction\ of\ this\ Exit\r\n\ @return\ String\ of\ direction\r\n
+comment6.params=
+comment6.target=Room\ getSrc()
+comment6.text=\r\n\ gets\ the\ room\ being\ left\ through\ exit\r\n\ @return\ Room\ Source\r\n
+comment7.params=
+comment7.target=Room\ getDest()
+comment7.text=\r\n\ gets\ the\ room\ player\ is\ heading\ to\ through\ exit\r\n\ @return\ Room\ Destination\r\n
+numComments=8

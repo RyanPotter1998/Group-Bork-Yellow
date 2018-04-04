@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MovementCommand
+comment1.params=dir
+comment1.target=MovementCommand(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ execute()
+numComments=3

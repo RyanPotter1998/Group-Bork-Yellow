@@ -1,0 +1,43 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.11.jar;C:\Program Files (x86)\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\BlueJ\lib\lang-stride.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\potte\Desktop\bork_v3
+-d
+C:\Users\potte\Desktop\bork_v3\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\potte\Desktop\bork_v3\Room.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\potte\Desktop\bork_v3\Room.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_144
+Building tree for all the packages and classes...
+Generating C:\Users\potte\Desktop\bork_v3\doc\Room.html...
+C:\Users\potte\Desktop\bork_v3\Room.java:72: warning - Tag @link: reference not found: edu.umw.stephen.bork.Dungeon
+C:\Users\potte\Desktop\bork_v3\Room.java:72: warning - Tag @link: reference not found: edu.umw.stephen.bork.Item
+C:\Users\potte\Desktop\bork_v3\Room.java:280: warning - @return tag cannot be used in method with void return type.
+C:\Users\potte\Desktop\bork_v3\Room.java:129: warning - @param argument "String" is not a parameter name.
+Generating C:\Users\potte\Desktop\bork_v3\doc\Room.NoRoomException.html...
+Generating C:\Users\potte\Desktop\bork_v3\doc\package-frame.html...
+Generating C:\Users\potte\Desktop\bork_v3\doc\package-summary.html...
+Generating C:\Users\potte\Desktop\bork_v3\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\potte\Desktop\bork_v3\doc\allclasses-frame.html...
+Generating C:\Users\potte\Desktop\bork_v3\doc\allclasses-noframe.html...
+Generating C:\Users\potte\Desktop\bork_v3\doc\index.html...
+4 warnings
